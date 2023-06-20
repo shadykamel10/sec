@@ -1,0 +1,336 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header .main-header{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    position: relative;
+}
+.main-header .fa-magnifying-glass{
+    position: absolute;
+    left: 120px;
+    
+    color: rgba(0, 0, 0, 0.301);
+}
+#username {
+    border: 3px solid black;
+    padding: 10px;
+}
+.fa-magnifying-glass:before, .fa-search:before {
+    content: "\f002";
+    top: 23px;
+    position: absolute;
+}
+.links a{
+    text-decoration:none;
+    color:black;
+    padding: 20PX;
+}
+.links a:hover {
+    color: blueviolet;
+}
+.links {
+    display: flex;
+    align-content: center;
+    justify-content:center;
+}
+.links .active {
+    color: blueviolet;
+}
+
+
+.main-header #search {
+    border: none;
+    outline: none;
+}
+
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+
+.down {
+    transform: rotate(45deg);
+    position:relative;
+    right:15px;
+    color:blueviolet;
+    top: 15px;
+}
+
+.line {
+    display: flex;
+    padding-left: 50px;
+    padding-top: 17px;
+    background-color: #eee;
+    
+    height: 50px;
+}
+.line p {
+    padding-left: 10px;
+    
+}
+.line .active {
+    color: blueviolet;
+}
+#notification {
+    position: absolute;
+    top: -19px;
+    right: 129px;
+    padding: 3px 5px;
+    border-radius: 50%;
+    background-color: blueviolet;
+    color: white;
+}
+/* end */
+.tank-top {
+    display: flex;
+    justify-content: space-around;
+}
+
+.tank-top  img {
+    margin-top: 20px;
+}
+
+.tank-top h2 {
+    margin: 20px 0;
+    text-transform: capitalize;
+
+}
+.tank-top p {
+    line-height: 1.5;
+}
+.tank-top h4 {
+    color: blueviolet;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+.tank-top .flex {
+   display: flex;
+   justify-content: space-around;
+}
+.tank-top .button {
+    display: flex;
+    width: 110px;
+    background-color: white;
+    margin-top: 10px;
+}
+.tank-top .button .one {
+    width: 20px;
+background-color: white;
+border: 2px solid blueviolet;
+}
+
+.tank-top .button .two {
+    width: 20px;
+    background-color: white;
+    border: 2px solid blueviolet;
+}
+.tank-top .button .two:hover {
+    background-color: blueviolet;
+}
+.tank-top .button .one:hover {
+    background-color: blueviolet;
+}
+
+.tank-top .button p {
+    padding: 0 10px;
+    border-bottom: 1px solid rgb(187, 181, 181);
+    border-top:1px solid rgb(187, 181, 181) ;
+}
+a .three{
+
+}
+.button1 {
+    color: white;
+    outline: none;
+    background-color: blueviolet;
+    padding-top: 25px;
+    padding: 5px 5px;
+    border: none;
+    width:150px;
+    text-decoration: none;
+}
+.button1:hover {
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    transform: scale(1.1);
+    transition: transform 0.1s ease-in-out;
+}
+
+.pro1{
+    background-color:#eee;
+    height: 150vh;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+.pro1 .content {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.pro1 .content .card {
+    background-color: white;
+    margin: 10px;
+    width: 350px;
+    height: 400px;
+}
+.card .text {
+    text-align: center;
+    
+}
+
+.card .text h4 {
+    color: blueviolet;
+    padding: 10px;
+}
+
+.pro1 .content img {
+width: 100px;
+}
+
+#products {
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#products::after {
+    content: "";
+    width: 0;
+    height: 20px;
+    width: 50px;
+    color: black;
+    border-top: 3px solid blueviolet;
+    position: relative;
+    right: 130px;
+    bottom:30px;
+}
+
+
+.footer {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin-left: 20px;
+    margin-bottom: 100px;
+    margin-top:100px;
+}
+
+
+    .footer ul {
+        list-style: none;
+    }
+
+        .footer ul li {
+            padding: 10px;
+        }
+
+            .footer ul li fa-solid {
+                color: blueviolet;
+            }
+
+    .footer h3 {
+        margin-bottom: 10px;
+    }
+
+    .footer .left2 {
+        margin-top: 30px;
+    }
+
+    .footer .left1 {
+        margin-top: 30px;
+    }
+
+    .footer img {
+        padding: 20px 0;
+    }
+
+    .footer h4 {
+        color: blueviolet;
+        padding-bottom: 10px;
+    }
+
+    .footer ul li .fa-solid {
+        color: blueviolet;
+        padding-right: 10px;
+    }
+
+.button3 {
+    color: white;
+    outline: none;
+    background-color: blueviolet;
+    margin-top: 15px;
+    padding: 5px 5px;
+    border-radius: 5px;
+    border: none;
+}
+
+.end {
+    position: absolute;
+    width: 557px;
+    margin-top: 300px;
+    margin-left: 300px;
+}
+
+.drop {
+    height: 100px;
+    display: flex;
+    position: absolute;
+    margin-left: 250px;
+}
+
+    .drop .dropdown1 p {
+        padding-left: 20px;
+    }
+
+.dropdown1 {
+    position: relative;
+    display: inline-block;
+    background-color: #eee;
+    width: 90px;
+    height: 60px;
+    margin-left: 600px;
+}
+
+.dropdown2 {
+    position: relative;
+    display: inline-block;
+    background-color: #eee;
+    background-color: #eee;
+    width: 100px;
+    margin-left: 20px;
+    height: 60px;
+}
+
+.drop .dropdown2 p {
+    padding-left: 20px;
+}
+
+.dropdown-content1 {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown-content2 {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}

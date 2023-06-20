@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="check.css">
+</head>
+<body>
+    <div class="header">
+        <div class="main-header">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="search" placeholder="search" id="search">
+            <p id="username">SHADY KAMEL</p>
+            <div class="icons">
+                <i class="fa-solid fa-user"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-cart-shopping"><span id="notification">2</span></i>
+            </div>
+
+        </div>
+        <div class="links">
+            <a class="active" href="index.html">HOME</a><p><i class="arrow down"></i></p>
+            <a href="shop.html">Shop</a><p><i class="arrow down"></i></p>
+            <a href="about.html">About</a>
+            <a href="">CATALOGUE</a>
+            <a href="">NEW ARRIVALS</a>
+            <a href="">CONTACT</a>
+        </div>
+    </div>
+    <div class="line">
+        <p class="active">Home</p>
+        <p>/</p>
+        <p class="active">cart</p>
+        <p>/</p>
+        <p>checkout</p>
+    </div>
+    <!-- end -->
+    <div class="login" >
+        <p>Returning customer?<span>click here </span> to login</p>
+    </div>
+    <div class="section1">
+        <div class="billing">
+            <h1>Billing Details</h1>
+            <div class="country">
+                <p>Country*</p>
+                <select name="country" id="country" required>
+                    <option value="default">Select a country</option>
+                    <option value="egypt">Egypt</option>
+                    <option value="arabia">Arabia</option>
+                    <option value="italy">Italy</option>
+                    <option value="spain">Spain</option>
+                </select>
+            </div>
+            <div class="nametext">
+                <p>First Name*</p>
+                <p id="lastnam">Last Name*</p>
+            </div>
+            <div class="name">
+                <input type="text" id="firstname" />
+                <input type="text" id="lastname" />
+            </div>
+            <p id="companytext">Company Name</p>
+            <input type="text" id="company" />
+            <p id="address">Address*</p>
+            <input type="text" placeholder="Stree address" id="st" /><br />
+            <input type="text" placeholder="Apartment. suite. unit. etc (optional)" id="stalker" />
+            <p id="state">State/Country*</p>
+            <p id="zip">Posta/Zip*</p>
+            <input type="text" id="country" />
+            <input type="text" id="posta" />
+            <div class="comm">
+                <p>Email Address*</p>
+                <p id="phone">Phone*</p>
+            </div>
+            <input id="email" type="text" />
+            <input id="number" type="text" placeholder="Phone Number" />
+            <input type="checkbox" id="acc" name="acc" value="acc" />
+            <label for="acc">Create an account?</label> <br />
+            <input type="checkbox" id="loc" name="loc" value="loc" />
+            <label for="loc">Ship To A Different Address?</label>
+            <p id="notes">Order Notes</p>
+            <input type="text"placeholder="Write your notes here"id="textor" />
+        </div>
+        <div class="coupon">
+            <h1>coupon code</h1>
+            <div class="coupn2">
+                <h5>enter coupon code if you have here</h5>
+                <input type="text" placeholder="coupon code ">
+                <button>Apply</button>
+            </div>
+            <h1>your order</h1>
+            <div class="container">
+                    <div class="pro">
+                        <h5>product</h5>
+                        <hr>
+                        <p>top up T-shirt</p>
+                        <hr>
+                        <p>polo shirt</p>
+                        <hr>
+                        <p>cart subtotal</p>
+                        <hr>
+                        <h5 class="end">order total</h5>
+                    </div>
+                    <div class="total">
+                        <h5>total</h5>
+                        <hr>
+                        <p>$250,00</p>
+                        <hr>
+                        <p>$100,00</p>
+                        <hr>
+                        <p>$350,00</p>
+                        <hr>
+                        <h5 class="end">350,00</h5>
+                    </div>
+                </div>
+                <h4>Direct Bank transfer</h4>
+                <h4>cheque payment</h4>
+                <h4>paypal</h4>
+                <a href="">place order</a>
+            </div>
+        </div>
+        <!-- end -->
+        <hr>
+        <di class="footer">
+            <div>
+                <h3>Navigations</h3>
+                <ul>
+                    <li>Sell online</li>
+                    <li>Features</li>
+                    <li>Shopping cart</li>
+                    <li>Store builder</li>
+                </ul>
+            </div>
+            <div class="left1">
+                <ul>
+                    <li>Mobile commerce</li>
+                    <li>Dropshipping</li>
+                    <li>Website </li>
+                </ul>
+            </div>
+            <div class="left2">
+                <ul>
+                    <li>Point of Sale</li>
+                    <li>Hardware</li>
+                    <li>Software</li>
+                </ul>
+            </div>
+            <div>
+                <h3>Promo</h3>
+                <img src="imges\hero_1.jpg" alt="" style="width: 180px;">
+                <h4>Finding Your Perfect Shoes</h4>
+                <p>Promo from nuary 15 - 25.2009</p>
+            </div>
+            <div>
+                <h1></h1>
+                <ul>
+                    <li> <i class="fa-solid fa-location-dot"></i>12 zaghlol st, elzaher, cairo</li>
+                    <li><i class="fa-solid fa-phone"></i> +200111537363</li>
+                    <li> <i class="fa-solid fa-envelope"></i>shadykamel555@yahoo.com</li>
+                </ul>
+                <p>Subscribe</p>
+                <input type="text" placeholder="Email" />
+                <button class="button3">SEND</button>
+            </div>
+            <p class="end">CopyrightⒸ2021 All rights reserved | This template is made with <i class="fa-solid fa-heart"></i> shady kamel</p>
+    
+</body>
+</html>

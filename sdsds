@@ -1,0 +1,141 @@
+ <div class="section2-shop">
+            <div>
+                <div class="content">
+                    <div class="card">
+                       <a href=""> <img src="imges\cloth_2.jpg" alt="Avatar" style="width:100%"></a>
+                        <div class="container">
+                            <div class="text">
+                                <h4>tnk Top</h4>
+                                <p>finding perfect t-shirt</p>
+                                <h4>$50</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                       <a href=""> <img src="imges\shoe_1.png" alt="Avatar" style="width:100%"></a>
+                        <div class="container">
+                            <div class="text">
+                                <h4>corater</h4>
+                                <p>finding perfect products</p>
+                                <h4>$50</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                       <a href=""> <img src="imges\cloth_1.jpg" alt="Avatar" style="width:100%"></a>
+                        <div class="container">
+                            <div class="text">
+                                <div class="text">
+                                <h4>polo shirt</h4>
+                                <p>finding perfect products</p>
+                                <h4>$50</h4>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <div>
+                <div class="content">
+                    <div class="card">
+                       <a href=""> <img src="imges\cloth_3.jpg" alt="Avatar" style="width:100%"></a>
+                        <div class="container">
+                            <div class="text">
+                                <h4>tnk Top</h4>
+                                <p>finding perfect t-shirt</p>
+                                <h4>$50</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <a href=""><img src="imges\shoe_1.png" alt="Avatar" style="width:100%"></a>
+                        <div class="container">
+                            <div class="text">
+                                <h4>corater</h4>
+                                <p>finding perfect products</p>
+                                <h4>$50</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <a href="">  <img src="imges\cloth_2.jpg" alt="Avatar" style="width:100%"></a>
+                        <div class="container">
+                            <div class="text">
+                                <div class="text">
+                                <h4>polo shirt</h4>
+                                <p>finding perfect products</p>
+                                <h4>$50</h4>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <div>
+                <div class="content">
+                    <div class="card">
+                        <a href=""><img src="imges\cloth_1.jpg" alt="Avatar" style="width:100%"></a>
+                        <div class="container">
+                            <div class="text">
+                                <h4>tnk Top</h4>
+                                <p>finding perfect t-shirt</p>
+                                <h4>$50</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="imges\shoe_1.png" alt="Avatar" style="width:100%">
+                        <div class="container">
+                            <div class="text">
+                                <h4>corater</h4>
+                                <p>finding perfect products</p>
+                                <h4>$50</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <a href=""><img src="imges\cloth_2.jpg" alt="Avatar" style="width:100%"></a>
+                        <div class="container">
+                            <div class="text">
+                                <div class="text">
+                                <h4>polo shirt</h4>
+                                <p>finding perfect products</p>
+                                <h4>$50</h4>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <div>   <div class="content">
+                <div class="card">
+                    <a href=""><img src="imges\cloth_3.jpg" alt="Avatar" style="width:100%"></a>
+                    <div class="container">
+                        <div class="text">
+                            <h4>tnk Top</h4>
+                            <p>finding perfect t-shirt</p>
+                            <h4>$50</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <a href=""><img src="imges\shoe_1.png" alt="Avatar" style="width:100%"></a>
+                    <div class="container">
+                        <div class="text">
+                            <h4>corater</h4>
+                            <p>finding perfect products</p>
+                            <h4>$50</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <a href=""><img src="imges\cloth_2.jpg" alt="Avatar" style="width:100%"></a>
+                    <div class="container">
+                        <div class="text">
+                            <div class="text">
+                            <h4>polo shirt</h4>
+                            <p>finding perfect products</p>
+                            <h4>$50</h4>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
